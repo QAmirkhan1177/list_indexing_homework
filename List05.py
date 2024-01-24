@@ -1,4 +1,4 @@
-def main(list1,i):
+def main(list1,i,l):
     """
     A list of several elements is given. i Return the item in the index.
     Args:
@@ -7,4 +7,6 @@ def main(list1,i):
     Returns:
         list: return answer
     """
-    return
+   
+    return list1[i:l]
+print(main(list1=[1,2,3,4,5,6],i=2,l=5)) 
